@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="wxManager.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:controls="clr-namespace:wxManager.Controls" 
+    xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation" 
+    d:DesignWidth="640" d:DesignHeight="300">
+
+    <Grid>
+
+        <controls:TiledBackground SourceUri="/wxManager;component/Images/backgroundtexture.png" />
+        <Image Source="/wxManager;component/Images/backgroundshadow.png" Stretch="Fill" />
+
+        <Border x:Name="LinksBorder" Style="{StaticResource NavLinksBorderStyle}" />
+
+        <Grid x:Name="LayoutRoot" VerticalAlignment="Stretch" d:LayoutOverrides="Height" Margin="46,0,8,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <StackPanel x:Name="LinksStackPanel" Style="{StaticResource LinksStackPanelStyle}">
+                <HyperlinkButton x:Name="hlb_sell" Style="{StaticResource LinkStyle}" NavigateUri="" TargetName="ContentFrame" Content="商务部" />
+                <HyperlinkButton x:Name="hlb_total" Style="{StaticResource LinkStyle}" NavigateUri="" TargetName="ContentFrame" Content="运维部" />
+                <HyperlinkButton x:Name="hlb_财务部" Style="{StaticResource LinkStyle}" NavigateUri="" TargetName="ContentFrame" Content="财务部" />
+                <HyperlinkButton x:Name="hlb_系统设置" Style="{StaticResource LinkStyle}" NavigateUri="" TargetName="ContentFrame" Content="系统设置" />
+                <HyperlinkButton x:Name="hlb_修改密码" Style="{StaticResource LinkStyle}" NavigateUri="" TargetName="ContentFrame" Content="修改密码" />
+            </StackPanel>
+
+            <Border x:Name="BrandingBorder" Style="{StaticResource NavBrandingBorderStyle}" Grid.Row="1">
+                <StackPanel x:Name="BrandingStackPanel" Style="{StaticResource NavBrandingStackPanelStyle}">
+                    <TextBlock x:Name="ApplicationNameTextBlock" Style="{StaticResource ApplicationNameStyle}" Text="商付通系统" />
+                    <ContentControl Style="{StaticResource NavLogoIcon}" VerticalAlignment="Bottom" Content="东雅软件" />
+                </StackPanel>
+            </Border>
+
+            <Border x:Name="ContentBorder" Style="{StaticResource NavContentBorderStyle}" Grid.Row="2">
+                <navigation:Frame x:Name="ContentFrame" />
+            </Border>
+
+        </Grid>
+
+    </Grid>
+</UserControl>

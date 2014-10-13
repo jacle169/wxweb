@@ -1,0 +1,5 @@
+c:\Users\jac\documents\visual studio 2012\Projects\wx_web\dy_weixin\obj\Debug\dy_weixin.csprojResolveAssemblyReference.cache
+c:\Users\jac\documents\visual studio 2012\Projects\wx_web\dy_weixin\bin\Debug\dy_weixin.dll
+c:\Users\jac\documents\visual studio 2012\Projects\wx_web\dy_weixin\bin\Debug\dy_weixin.pdb
+c:\Users\jac\documents\visual studio 2012\Projects\wx_web\dy_weixin\obj\Debug\dy_weixin.dll
+c:\Users\jac\documents\visual studio 2012\Projects\wx_web\dy_weixin\obj\Debug\dy_weixin.pdb

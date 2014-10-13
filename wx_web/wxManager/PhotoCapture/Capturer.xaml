@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="PhotoCapture.Capturer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="736" Height="364">
+    
+    <Grid x:Name="LayoutRoot">
+    	<Rectangle x:Name="rectangle1" Stroke="Black" Width="430" Height="360" HorizontalAlignment="Left" d:LayoutOverrides="Width" VerticalAlignment="Top"/>
+    	<Button x:Name="bt_action" Content="启动" HorizontalAlignment="Right" VerticalAlignment="Top" Width="294" Margin="0,8,8,0" Height="28"/>
+    	<Button x:Name="bt_capture" Content="拍照" HorizontalAlignment="Right" VerticalAlignment="Top" Width="294" Margin="0,40,8,0" Height="28" FontSize="13.333"/>
+    	<Image x:Name="img_display" HorizontalAlignment="Right" Width="294" Margin="0,0,8,4" Height="288" VerticalAlignment="Bottom"/>
+    </Grid>
+</UserControl>

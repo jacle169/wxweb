@@ -1,0 +1,7 @@
+c:\users\jac\documents\visual studio 2012\Projects\wx_web\wx_web\bin\wx_web.dll
+c:\users\jac\documents\visual studio 2012\Projects\wx_web\wx_web\bin\wx_web.pdb
+c:\users\jac\documents\visual studio 2012\Projects\wx_web\wx_web\obj\Debug\wx_web.dll
+c:\users\jac\documents\visual studio 2012\Projects\wx_web\wx_web\obj\Debug\wx_web.pdb
+c:\users\jac\documents\visual studio 2012\Projects\wx_web\wx_web\obj\Debug\wx_web.csprojResolveAssemblyReference.cache
+c:\users\jac\documents\visual studio 2012\Projects\wx_web\wx_web\bin\dy_weixin.dll
+c:\users\jac\documents\visual studio 2012\Projects\wx_web\wx_web\bin\dy_weixin.pdb

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wx_web", "wx_web\wx_web.csproj", "{1683DA90-7E09-4E9A-B041-F335069C5A87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dy_weixin", "dy_weixin\dy_weixin.csproj", "{BA08FC2C-4CEA-48DE-8037-3AA2D3575EBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wxManager", "wxManager\wxManager.csproj", "{F575BB0C-E803-444E-994C-158E7F42F403}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1683DA90-7E09-4E9A-B041-F335069C5A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1683DA90-7E09-4E9A-B041-F335069C5A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1683DA90-7E09-4E9A-B041-F335069C5A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1683DA90-7E09-4E9A-B041-F335069C5A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA08FC2C-4CEA-48DE-8037-3AA2D3575EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA08FC2C-4CEA-48DE-8037-3AA2D3575EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA08FC2C-4CEA-48DE-8037-3AA2D3575EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA08FC2C-4CEA-48DE-8037-3AA2D3575EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F575BB0C-E803-444E-994C-158E7F42F403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F575BB0C-E803-444E-994C-158E7F42F403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F575BB0C-E803-444E-994C-158E7F42F403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F575BB0C-E803-444E-994C-158E7F42F403}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
